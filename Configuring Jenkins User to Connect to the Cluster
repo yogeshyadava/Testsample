@@ -1,0 +1,3 @@
+ 
+$ sudo cp ~/.kube/config ~jenkins/.kube/
+$ sudo chown -R jenkins: ~jenkins/.kube/
