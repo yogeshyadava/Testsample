@@ -1,0 +1,9 @@
+ 
+kubectl get nodes -o wide
+NAME                                          STATUS   ROLES    AGE   VERSION          INTERNAL-IP   EXTERNAL-IP     OS-IMAGE                             KERNEL-VERSION   CONTAINER-RUNTIME
+gke-security-lab-default-pool-46f98c95-qsdj   Ready       7d    v1.13.11-gke.9   18.229.156.94   172.20.61.231   Container-Optimized OS from Google   4.14.145+        docker://18.9.7
+
+
+ 
+$ curl 172.20.61.231:32000
+{"message": "hello world"}
